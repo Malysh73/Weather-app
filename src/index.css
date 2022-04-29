@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.map-container {
+  height: 100vh;
+  margin-left: 30vw;
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  font-family: monospace;
+  font-size: 16px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30vw;
+  height: 100vh;
+  border-radius: 4px;
+  overflow-y: scroll;
+}
+
+.coords {
+  border-bottom: 2px black solid;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.countryName {
+  padding: 12px;
+  cursor: pointer;
+}
+
+.countryName:hover {
+  background-color: rgba(35, 55, 75, 0.9);;
+}
